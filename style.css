@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #3c3d3d;
+}
+
+form {
+    background-color: white;
+    max-width: 500px;
+    width: 60%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+form h3 {
+    text-align: left;
+    color: #3c3d3d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form div {
+    font-size: 12px;
+    margin-top: 15px;
+    color: red;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form input[type=text],
+form input[type=password] {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+}
+
+form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    background: #3c3d3d;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    transition: 1s;
+    
+}
+
+form input[type=submit]:hover {
+    background-color: #595a5a;
+}
+
+form input[type=text]:focus {
+    outline: 0;
+}
+form input[type=password]:focus {
+    outline: 0;
+}
